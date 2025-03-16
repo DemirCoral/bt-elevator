@@ -1,0 +1,62 @@
+{
+  "Home": {
+    "title": "BT Asansör",
+    "description": "Yüksek kaliteli asansör çözümleri",
+    "hero": {
+      "title": "Modern Asansör Çözümleri",
+      "description": "Yenilikçi teknoloji ve üstün kalite ile asansör sistemleri tasarlıyor ve üretiyoruz.",
+      "cta": "Ürünlerimizi Keşfedin"
+    },
+    "products": {
+      "title": "Ürünlerimiz",
+      "description": "En son teknoloji ile üretilen asansör sistemleri",
+      "viewMore": "Detaylı Bilgi",
+      "items": {
+        "passenger": {
+          "title": "Yolcu Asansörleri",
+          "description": "Modern ve konforlu yolcu asansörleri ile binanızın değerini artırın."
+        },
+        "cargo": {
+          "title": "Yük Asansörleri",
+          "description": "Güçlü ve güvenilir yük asansörleri ile ağır yükleri kolayca taşıyın."
+        },
+        "panoramic": {
+          "title": "Panoramik Asansörler",
+          "description": "Şık ve modern tasarımlı panoramik asansörler ile mekanınıza değer katın."
+        }
+      }
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Profesyonel asansör bakım ve servis çözümleri",
+      "viewMore": "Detaylı Bilgi",
+      "items": {
+        "maintenance": {
+          "title": "Bakım & Onarım",
+          "description": "Düzenli bakım ve hızlı onarım hizmetleri ile asansörlerinizin ömrünü uzatın."
+        },
+        "support": {
+          "title": "7/24 Servis",
+          "description": "Acil durumlar için 7/24 teknik destek ve servis hizmeti."
+        },
+        "safety": {
+          "title": "Güvenlik Kontrolleri",
+          "description": "Periyodik güvenlik kontrolleri ile asansörlerinizin güvenliğini sağlayın."
+        }
+      }
+    },
+    "contact": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Asansör çözümlerimiz hakkında detaylı bilgi almak için bizimle iletişime geçin.",
+      "cta": "İletişime Geçin"
+    }
+  },
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "corporate": "Kurumsal"
+  }
+} 

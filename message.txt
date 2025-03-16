@@ -1,0 +1,140 @@
+BT ELEVATOR WEB UYGULAMASI - PROJE BİLGİLERİ
+
+1. PROJE GENEL BAKIŞ
+- Çok dilli (Türkçe, İngilizce, Almanca, Rusça, Arapça) kurumsal web sitesi
+- Asansör ürünleri ve hizmetlerinin tanıtımı
+- Login/Authentication gerektirmeyen statik yapı
+- Tamamen responsive tasarım
+- Modern ve profesyonel UI/UX
+
+2. TEKNİK STACK
+- Next.js 14 (App Router)
+- Vercel (Deployment)
+- Supabase (Backend/Database)
+- Tailwind CSS (Styling)
+- i18n (Çoklu dil desteği)
+- TypeScript
+
+3. SAYFA YAPISI
+Ana Sayfalar:
+- Ana Sayfa (Home)
+- Ürünler (Products)
+- Ürün Detay (Product Detail)
+- Hizmetler (Services)
+- Hakkımızda (About)
+- İletişim (Contact)
+- Kurumsal (Corporate)
+
+4. ÖNEMLİ KOMPONENTLER
+- Navigation Bar (Responsive)
+- Language Switcher
+- Product Card
+- Product Gallery
+- Service Card
+- Contact Form
+- Footer
+- Breadcrumb
+- Hero Section
+- Animated Sections
+- Loading States
+- Error Boundaries
+
+5. UI/UX ÖZELLİKLERİ
+- Modern ve minimalist tasarım
+- Smooth page transitions
+- Lazy loading images
+- Skeleton loading states
+- Responsive grid layouts
+- Interactive product galleries
+- Motion animations (Framer Motion)
+- Custom scrollbar
+- Toast notifications
+- Hover effects
+
+6. SUPABASE YAPISI
+Tablolar:
+- products
+  - id
+  - name (jsonb for multilingual)
+  - description (jsonb for multilingual)
+  - specifications (jsonb)
+  - images
+  - category
+  - features
+
+- services
+  - id
+  - title (jsonb for multilingual)
+  - description (jsonb for multilingual)
+  - icon
+  - images
+
+- pages
+  - id
+  - slug
+  - content (jsonb for multilingual)
+  - meta_data
+
+7. SEO VE PERFORMANS
+- Meta tags optimization
+- Structured data
+- Image optimization
+- Core Web Vitals optimization
+- Sitemap generation
+- robots.txt
+- Open Graph tags
+
+8. PAKETLER VE DEPENDENCIES
+- @headlessui/react (UI components)
+- framer-motion (Animations)
+- next-intl (Internationalization)
+- @supabase/supabase-js
+- tailwindcss
+- @heroicons/react
+- react-hook-form
+- zod (Form validation)
+- next-themes (Dark/Light mode)
+- sharp (Image optimization)
+
+9. DEPLOYMENT VE CI/CD
+- Vercel automatic deployments
+- Environment variables management
+- Build optimization
+- Cache strategies
+- Edge functions
+
+10. RESPONSIVE BREAKPOINTS
+- Mobile: 320px - 480px
+- Tablet: 481px - 768px
+- Laptop: 769px - 1024px
+- Desktop: 1025px - 1200px
+- Large Desktop: 1201px+
+
+11. PROJE YAPISI
+/app
+  /[locale]
+    /products
+      /[id]
+    /services
+    /about
+    /contact
+    /corporate
+  /components
+  /lib
+  /hooks
+  /styles
+  /public
+  /types
+  /utils
+
+12. GELİŞTİRME PRENSİPLERİ
+- Component-based architecture
+- DRY (Don't Repeat Yourself)
+- Mobile-first approach
+- Progressive enhancement
+- Accessibility standards
+- Clean code practices
+- Modular CSS
+- Type safety
+
+Bu yapı, modern ve ölçeklenebilir bir web uygulaması için temel oluşturacaktır. AI agent ile geliştirme sürecinde bu doküman referans olarak kullanılabilir.

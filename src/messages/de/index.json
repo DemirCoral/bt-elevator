@@ -1,0 +1,62 @@
+{
+  "Home": {
+    "title": "BT Aufzüge",
+    "description": "Hochwertige Aufzugslösungen",
+    "hero": {
+      "title": "Moderne Aufzugslösungen",
+      "description": "Wir entwickeln und fertigen Aufzugsysteme mit innovativer Technologie und überragender Qualität.",
+      "cta": "Entdecken Sie unsere Produkte"
+    },
+    "products": {
+      "title": "Unsere Produkte",
+      "description": "Aufzugsysteme hergestellt mit modernster Technologie",
+      "viewMore": "Details anzeigen",
+      "items": {
+        "passenger": {
+          "title": "Personenaufzüge",
+          "description": "Steigern Sie den Wert Ihres Gebäudes mit modernen und komfortablen Personenaufzügen."
+        },
+        "cargo": {
+          "title": "Lastenaufzüge",
+          "description": "Transportieren Sie schwere Lasten mühelos mit starken und zuverlässigen Lastenaufzügen."
+        },
+        "panoramic": {
+          "title": "Panoramaaufzüge",
+          "description": "Verleihen Sie Ihrem Raum mit stilvollen und modern gestalteten Panoramaaufzügen einen besonderen Wert."
+        }
+      }
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "description": "Professionelle Aufzugswartung und Servicelösungen",
+      "viewMore": "Details anzeigen",
+      "items": {
+        "maintenance": {
+          "title": "Wartung & Reparatur",
+          "description": "Verlängern Sie die Lebensdauer Ihrer Aufzüge durch regelmäßige Wartung und schnelle Reparaturservices."
+        },
+        "support": {
+          "title": "24/7 Service",
+          "description": "Technischer Support und Service rund um die Uhr für Notfälle."
+        },
+        "safety": {
+          "title": "Sicherheitsprüfungen",
+          "description": "Gewährleisten Sie die Sicherheit Ihrer Aufzüge durch regelmäßige Sicherheitsinspektionen."
+        }
+      }
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "description": "Kontaktieren Sie uns für detaillierte Informationen über unsere Aufzugslösungen.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "corporate": "Unternehmen"
+  }
+} 

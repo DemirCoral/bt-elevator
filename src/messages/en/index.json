@@ -1,0 +1,62 @@
+{
+  "Home": {
+    "title": "BT Elevator",
+    "description": "High quality elevator solutions",
+    "hero": {
+      "title": "Modern Elevator Solutions",
+      "description": "We design and manufacture elevator systems with innovative technology and superior quality.",
+      "cta": "Discover Our Products"
+    },
+    "products": {
+      "title": "Our Products",
+      "description": "Elevator systems manufactured with the latest technology",
+      "viewMore": "View Details",
+      "items": {
+        "passenger": {
+          "title": "Passenger Elevators",
+          "description": "Increase the value of your building with modern and comfortable passenger elevators."
+        },
+        "cargo": {
+          "title": "Cargo Elevators",
+          "description": "Easily transport heavy loads with strong and reliable cargo elevators."
+        },
+        "panoramic": {
+          "title": "Panoramic Elevators",
+          "description": "Add value to your space with stylish and modern designed panoramic elevators."
+        }
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Professional elevator maintenance and service solutions",
+      "viewMore": "View Details",
+      "items": {
+        "maintenance": {
+          "title": "Maintenance & Repair",
+          "description": "Extend the life of your elevators with regular maintenance and quick repair services."
+        },
+        "support": {
+          "title": "24/7 Service",
+          "description": "Technical support and service available 24/7 for emergencies."
+        },
+        "safety": {
+          "title": "Safety Inspections",
+          "description": "Ensure the safety of your elevators with periodic safety inspections."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with us for detailed information about our elevator solutions.",
+      "cta": "Contact Us"
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "corporate": "Corporate"
+  }
+} 
