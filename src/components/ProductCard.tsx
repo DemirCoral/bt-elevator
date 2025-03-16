@@ -5,44 +5,38 @@ import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-type ProductCardProps = {
+interface ProductCardProps {
   title: string;
   description: string;
   image: string;
-  href: string;
-};
+  slug: string;
+}
 
-export default function ProductCard({ title, description, image, href }: ProductCardProps) {
+export default function ProductCard({ title, description, image, slug }: ProductCardProps) {
   const t = useTranslations('Home');
   const locale = useLocale();
+  const isRtl = locale === 'ar';
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden">
-      <div className="relative h-48">
+    <div className="product-card bg-white rounded-lg shadow-md overflow-hidden">
+      <div className="image-container">
         <Image
           src={image}
           alt={title}
           fill
-          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="product-image transition-transform duration-300 hover:scale-105"
+          priority={false}
         />
       </div>
-      <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
-        <Link
-          href={`/${locale}${href}`}
-          className="inline-flex items-center text-blue-600 hover:text-blue-700"
+      <div className={`product-card-content p-4 ${isRtl ? 'text-right' : 'text-left'}`}>
+        <h3 className="text-[color:var(--primary)] font-semibold mb-2">{title}</h3>
+        <p className="text-[color:var(--dark)] text-sm mb-4">{description}</p>
+        <Link 
+          href={`/${locale}/products/${slug}`} 
+          className="btn btn-outline"
         >
-          {t('products.viewMore')}
-          <svg
-            className="w-4 h-4 ml-2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth="2"
-            fill="none"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
+          Detaylı Bilgi
         </Link>
       </div>
     </div>
