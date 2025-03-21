@@ -9,10 +9,10 @@ interface ProductCardProps {
   title: string;
   description: string;
   image: string;
-  slug: string;
+  href: string;
 }
 
-export default function ProductCard({ title, description, image, slug }: ProductCardProps) {
+export default function ProductCard({ title, description, image, href }: ProductCardProps) {
   const t = useTranslations('Home');
   const locale = useLocale();
   const isRtl = locale === 'ar';
@@ -33,10 +33,10 @@ export default function ProductCard({ title, description, image, slug }: Product
         <h3 className="text-[color:var(--primary)] font-semibold mb-2">{title}</h3>
         <p className="text-[color:var(--dark)] text-sm mb-4">{description}</p>
         <Link 
-          href={`/${locale}/products/${slug}`} 
+          href={href}
           className="btn btn-outline"
         >
-          Detaylı Bilgi
+          {t('products.viewMore')}
         </Link>
       </div>
     </div>

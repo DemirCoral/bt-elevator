@@ -1,0 +1,66 @@
+{
+  "title": "Hizmetlerimiz",
+  "description": "İhtiyaçlarınız için kapsamlı asansör çözümleri",
+  "hero": {
+    "title": "Profesyonel Asansör Hizmetleri",
+    "description": "Kurulumdan bakıma kadar, eksiksiz asansör çözümleri sunuyoruz"
+  },
+  "services": {
+    "installation": {
+      "title": "Kurulum Hizmetleri",
+      "description": "Yeni asansör sistemlerinin uzman kurulumu",
+      "features": [
+        "Özel tasarım ve planlama",
+        "Profesyonel kurulum ekibi",
+        "Güvenlik uyumluluğu",
+        "Kalite güvencesi"
+      ]
+    },
+    "maintenance": {
+      "title": "Bakım Hizmetleri",
+      "description": "Optimal performans için düzenli bakım",
+      "features": [
+        "Önleyici bakım",
+        "Performans optimizasyonu",
+        "Güvenlik kontrolleri",
+        "7/24 acil destek"
+      ]
+    },
+    "repair": {
+      "title": "Onarım Hizmetleri",
+      "description": "Hızlı ve güvenilir onarım çözümleri",
+      "features": [
+        "Acil onarımlar",
+        "Diagnostik hizmetler",
+        "Parça değişimi",
+        "Teknik destek"
+      ]
+    }
+  },
+  "process": {
+    "title": "Hizmet Sürecimiz",
+    "steps": [
+      {
+        "title": "İlk Görüşme",
+        "description": "İhtiyaçlarınızı değerlendirip detaylı öneriler sunuyoruz"
+      },
+      {
+        "title": "Hizmet Planlaması",
+        "description": "Asansörünüz için özel bir hizmet planı geliştiriyoruz"
+      },
+      {
+        "title": "Uygulama",
+        "description": "Uzman ekibimiz hizmet planını verimli bir şekilde uyguluyor"
+      },
+      {
+        "title": "Takip",
+        "description": "Hizmetlerimizden tam memnuniyetinizi sağlıyoruz"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Asansör Hizmetlerine mi İhtiyacınız Var?",
+    "description": "Profesyonel asansör çözümleri için bizimle iletişime geçin",
+    "button": "İletişime Geçin"
+  }
+} 

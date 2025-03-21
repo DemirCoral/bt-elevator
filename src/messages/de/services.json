@@ -1,0 +1,66 @@
+{
+  "title": "Unsere Dienstleistungen",
+  "description": "Umfassende Aufzugslösungen für Ihre Bedürfnisse",
+  "hero": {
+    "title": "Professionelle Aufzugsdienste",
+    "description": "Von der Installation bis zur Wartung bieten wir komplette Aufzugslösungen"
+  },
+  "services": {
+    "installation": {
+      "title": "Installationsdienste",
+      "description": "Professionelle Installation neuer Aufzugssysteme",
+      "features": [
+        "Individuelle Planung und Gestaltung",
+        "Professionelles Installationsteam",
+        "Sicherheitskonformität",
+        "Qualitätssicherung"
+      ]
+    },
+    "maintenance": {
+      "title": "Wartungsdienste",
+      "description": "Regelmäßige Wartung für optimale Leistung",
+      "features": [
+        "Vorbeugende Wartung",
+        "Leistungsoptimierung",
+        "Sicherheitsinspektionen",
+        "24/7 Notfall-Support"
+      ]
+    },
+    "repair": {
+      "title": "Reparaturservices",
+      "description": "Schnelle und zuverlässige Reparaturlösungen",
+      "features": [
+        "Notfallreparaturen",
+        "Diagnoseservices",
+        "Teileersatz",
+        "Technischer Support"
+      ]
+    }
+  },
+  "process": {
+    "title": "Unser Serviceprozess",
+    "steps": [
+      {
+        "title": "Erstberatung",
+        "description": "Wir analysieren Ihre Bedürfnisse und geben detaillierte Empfehlungen"
+      },
+      {
+        "title": "Serviceplanung",
+        "description": "Wir entwickeln einen maßgeschneiderten Serviceplan für Ihren Aufzug"
+      },
+      {
+        "title": "Umsetzung",
+        "description": "Unser Expertenteam führt den Serviceplan effizient aus"
+      },
+      {
+        "title": "Nachbetreuung",
+        "description": "Wir stellen Ihre vollständige Zufriedenheit mit unseren Dienstleistungen sicher"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Benötigen Sie Aufzugsdienste?",
+    "description": "Kontaktieren Sie uns für professionelle Aufzugslösungen",
+    "button": "Kontakt aufnehmen"
+  }
+} 

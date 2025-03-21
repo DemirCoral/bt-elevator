@@ -1,0 +1,61 @@
+{
+  "title": "BT Asansör Hakkında",
+  "description": "Asansör çözümlerinde güvenilir ortağınız",
+  "hero": {
+    "title": "Hikayemiz",
+    "description": "1990'dan beri inovasyon ve mükemmellikle asansör sektörüne öncülük ediyoruz"
+  },
+  "history": {
+    "title": "Tarihçemiz",
+    "description": "Mütevazı başlangıçtan sektör liderliğine",
+    "content": "1990 yılında kurulan BT Asansör, küçük bir aile işletmesinden bölgenin önde gelen asansör üreticilerinden ve servis sağlayıcılarından biri haline geldi. Yolculuğumuz sürekli inovasyon, kaliteye sarsılmaz bağlılık ve müşteri memnuniyetine adanmışlıkla işaretlendi."
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "description": "Asansör teknolojisinde yeni standartlar belirliyoruz",
+    "content": "Müşterilerimizin yaşam kalitesini artıran yenilikçi, güvenli ve verimli asansör çözümleri sunmaya çalışıyoruz. Misyonumuz, güvenilirliğimiz, uzmanlığımız ve müşteri odaklı yaklaşımımızla tanınan, dikey ulaşım çözümlerinde tercih edilen ortak olmaktır."
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "items": {
+      "safety": {
+        "title": "Öncelik Güvenlik",
+        "description": "Tüm operasyonlarımızda güvenliği ön planda tutuyoruz"
+      },
+      "quality": {
+        "title": "Kalite Mükemmelliği",
+        "description": "Ürün ve hizmetlerimizde en yüksek standartları koruyoruz"
+      },
+      "innovation": {
+        "title": "İnovasyon",
+        "description": "Araştırma ve geliştirmeye sürekli yatırım yapıyoruz"
+      },
+      "customer": {
+        "title": "Müşteri Odaklılık",
+        "description": "Müşterilerimizi her şeyin merkezine koyuyoruz"
+      }
+    }
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "description": "Başarımızın arkasındaki uzmanlarla tanışın",
+    "content": "Ekibimiz, en iyi asansör çözümlerini sunmaya tutkuyla bağlı deneyimli profesyonellerden oluşmaktadır. Mühendislerden teknisyenlere kadar, her üye başarımızda kritik bir rol oynamaktadır."
+  },
+  "stats": {
+    "title": "Etkimiz",
+    "items": {
+      "projects": {
+        "label": "Tamamlanan Projeler",
+        "value": "1000+"
+      },
+      "clients": {
+        "label": "Mutlu Müşteriler",
+        "value": "500+"
+      },
+      "experience": {
+        "label": "Deneyim Yılı",
+        "value": "30+"
+      }
+    }
+  }
+} 

@@ -1,0 +1,61 @@
+{
+  "title": "About BT Elevator",
+  "description": "Your trusted partner in elevator solutions",
+  "hero": {
+    "title": "Our Story",
+    "description": "Leading the elevator industry with innovation and excellence since 1990"
+  },
+  "history": {
+    "title": "Our History",
+    "description": "From humble beginnings to industry leadership",
+    "content": "Founded in 1990, BT Elevator has grown from a small family business to become one of the leading elevator manufacturers and service providers in the region. Our journey is marked by continuous innovation, unwavering commitment to quality, and dedication to customer satisfaction."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "Setting new standards in elevator technology",
+    "content": "We strive to provide innovative, safe, and efficient elevator solutions that enhance the quality of life for our customers. Our mission is to be the preferred partner in vertical transportation solutions, known for our reliability, expertise, and customer-centric approach."
+  },
+  "values": {
+    "title": "Our Values",
+    "items": {
+      "safety": {
+        "title": "Safety First",
+        "description": "We prioritize safety in every aspect of our operations"
+      },
+      "quality": {
+        "title": "Quality Excellence",
+        "description": "We maintain the highest standards in our products and services"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously invest in research and development"
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "description": "We put our customers at the heart of everything we do"
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet the experts behind our success",
+    "content": "Our team consists of experienced professionals who are passionate about delivering the best elevator solutions. From engineers to technicians, each member plays a crucial role in our success."
+  },
+  "stats": {
+    "title": "Our Impact",
+    "items": {
+      "projects": {
+        "label": "Completed Projects",
+        "value": "1000+"
+      },
+      "clients": {
+        "label": "Satisfied Clients",
+        "value": "500+"
+      },
+      "experience": {
+        "label": "Years of Experience",
+        "value": "30+"
+      }
+    }
+  }
+} 

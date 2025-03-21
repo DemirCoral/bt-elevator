@@ -1,7 +1,7 @@
 {
   "Home": {
-    "title": "BT Aufzüge",
-    "description": "Hochwertige Aufzugslösungen",
+    "title": "BT Elevator - Moderne Aufzugslösungen",
+    "description": "Wir bieten hochwertige, zuverlässige Aufzugsysteme und Wartungsservices.",
     "hero": {
       "title": "Moderne Aufzugslösungen",
       "description": "Wir entwickeln und fertigen Aufzugsysteme mit innovativer Technologie und überragender Qualität.",
@@ -9,8 +9,8 @@
     },
     "products": {
       "title": "Unsere Produkte",
-      "description": "Aufzugsysteme hergestellt mit modernster Technologie",
-      "viewMore": "Details anzeigen",
+      "description": "Aufzugsysteme gefertigt mit modernster Technologie",
+      "viewMore": "Mehr erfahren",
       "items": {
         "passenger": {
           "title": "Personenaufzüge",
@@ -18,29 +18,29 @@
         },
         "cargo": {
           "title": "Lastenaufzüge",
-          "description": "Transportieren Sie schwere Lasten mühelos mit starken und zuverlässigen Lastenaufzügen."
+          "description": "Transportieren Sie schwere Lasten einfach mit starken und zuverlässigen Lastenaufzügen."
         },
         "panoramic": {
           "title": "Panoramaaufzüge",
-          "description": "Verleihen Sie Ihrem Raum mit stilvollen und modern gestalteten Panoramaaufzügen einen besonderen Wert."
+          "description": "Werten Sie Ihren Raum mit stilvollen und modernen Panoramaaufzügen auf."
         }
       }
     },
     "services": {
       "title": "Unsere Dienstleistungen",
       "description": "Professionelle Aufzugswartung und Servicelösungen",
-      "viewMore": "Details anzeigen",
+      "viewMore": "Mehr erfahren",
       "items": {
         "maintenance": {
           "title": "Wartung & Reparatur",
-          "description": "Verlängern Sie die Lebensdauer Ihrer Aufzüge durch regelmäßige Wartung und schnelle Reparaturservices."
+          "description": "Verlängern Sie die Lebensdauer Ihrer Aufzüge mit regelmäßiger Wartung und schnellem Reparaturservice."
         },
         "support": {
           "title": "24/7 Service",
-          "description": "Technischer Support und Service rund um die Uhr für Notfälle."
+          "description": "24/7 technischer Support und Service für Notfälle."
         },
         "safety": {
-          "title": "Sicherheitsprüfungen",
+          "title": "Sicherheitsinspektionen",
           "description": "Gewährleisten Sie die Sicherheit Ihrer Aufzüge durch regelmäßige Sicherheitsinspektionen."
         }
       }
@@ -58,5 +58,184 @@
     "about": "Über uns",
     "contact": "Kontakt",
     "corporate": "Unternehmen"
+  },
+  "Products": {
+    "hero": {
+      "title": "Unsere Aufzugslösungen",
+      "description": "Entdecken Sie unsere modernen und effizienten Aufzugsysteme"
+    },
+    "products": {
+      "passenger": {
+        "title": "Personenaufzüge",
+        "description": "Komfortable und effiziente Personenbeförderungslösungen",
+        "features": [
+          "Sanfter und leiser Betrieb",
+          "Fortschrittliche Sicherheitsfunktionen",
+          "Energieeffizientes Design",
+          "Anpassbare Innenausstattung"
+        ]
+      },
+      "freight": {
+        "title": "Lastenaufzüge",
+        "description": "Robuste Lösungen für gewerbliche und industrielle Anwendungen",
+        "features": [
+          "Hohe Tragfähigkeit",
+          "Robuste Konstruktion",
+          "Breite Türöffnungen",
+          "Industriematerialien"
+        ]
+      },
+      "residential": {
+        "title": "Wohnungsaufzüge",
+        "description": "Elegante und platzsparende Hausaufzugslösungen",
+        "features": [
+          "Kompaktes Design",
+          "Leiser Betrieb",
+          "Einfache Wartung",
+          "Moderne Ästhetik"
+        ]
+      },
+      "commercial": {
+        "title": "Gewerbeaufzüge",
+        "description": "Professionelle Lösungen für Geschäftsgebäude",
+        "features": [
+          "Hohe Verkehrskapazität",
+          "Intelligente Steuerungssysteme",
+          "Energieeffizienz",
+          "Premium-Ausführung"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Bereit für ein Aufzug-Upgrade?",
+      "description": "Kontaktieren Sie uns, um Ihre spezifischen Anforderungen zu besprechen",
+      "button": "Kontakt aufnehmen",
+      "learnMore": "Mehr erfahren"
+    }
+  },
+  "Services": {
+    "hero": {
+      "title": "Professionelle Aufzugsdienstleistungen",
+      "description": "Wir bieten qualitativ hochwertige und zuverlässige Aufzugslösungen mit unserem Expertenteam"
+    },
+    "services": {
+      "installation": {
+        "title": "Installation",
+        "description": "Professionelle Installation moderner und sicherer Aufzugsysteme",
+        "features": [
+          "Professionelles Installationsteam",
+          "Sicherheitskonforme Installation",
+          "Detaillierter Test- und Kontrollprozess"
+        ]
+      },
+      "maintenance": {
+        "title": "Wartung",
+        "description": "Verlängern Sie die Lebensdauer Ihrer Aufzüge mit regelmäßigen Wartungsservices",
+        "features": [
+          "Periodischer Wartungsservice",
+          "24/7 technischer Support",
+          "Vorbeugendes Wartungsprogramm"
+        ]
+      },
+      "repair": {
+        "title": "Reparatur",
+        "description": "Schnelle und effektive Reparaturservices für unterbrechungsfreien Betrieb",
+        "features": [
+          "Schnelle Reaktion",
+          "Experten-Technikerteam",
+          "Verwendung von Originalersatzteilen"
+        ]
+      }
+    },
+    "process": {
+      "title": "Unser Arbeitsprozess",
+      "steps": [
+        {
+          "title": "Inspektion",
+          "description": "Detaillierte technische Inspektion und Analyse"
+        },
+        {
+          "title": "Planung",
+          "description": "Maßgeschneiderte Lösung und Implementierungsplan"
+        },
+        {
+          "title": "Umsetzung",
+          "description": "Professionelle Teamimplementierung"
+        },
+        {
+          "title": "Kontrolle",
+          "description": "Qualitätskontrolle und Testprozess"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Erfahren Sie mehr über unsere Dienstleistungen",
+      "description": "Kontaktieren Sie uns für maßgeschneiderte Aufzugslösungen",
+      "button": "Kontakt aufnehmen"
+    }
+  },
+  "Corporate": {
+    "hero": {
+      "title": "Unternehmen",
+      "description": "Zuverlässige und nachhaltige Aufzugslösungen"
+    },
+    "sections": {
+      "company": {
+        "title": "Unser Unternehmen",
+        "description": "BT Elevator ist führend in der Aufzugsindustrie mit über 20 Jahren Erfahrung",
+        "link": "Über uns"
+      },
+      "policies": {
+        "title": "Unsere Richtlinien",
+        "description": "Unternehmensrichtlinien und Geschäftsprinzipien",
+        "link": "Richtlinien"
+      },
+      "careers": {
+        "title": "Karriere",
+        "description": "Karrieremöglichkeiten in einem dynamischen und innovativen Umfeld",
+        "link": "Karriere"
+      },
+      "investors": {
+        "title": "Investorenbeziehungen",
+        "description": "Finanzinformationen und Berichte für unsere Investoren",
+        "link": "Investoren"
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "description": "Umweltfreundliche und nachhaltige Geschäftsmodelle",
+        "link": "Nachhaltigkeit"
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "Einhaltung rechtlicher und ethischer Standards",
+        "link": "Compliance"
+      }
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "items": [
+        {
+          "title": "Sicherheit",
+          "description": "Wir implementieren höchste Sicherheitsstandards"
+        },
+        {
+          "title": "Qualität",
+          "description": "Kontinuierliche Qualitätsverbesserung und Exzellenz"
+        },
+        {
+          "title": "Innovation",
+          "description": "Wir verfolgen technologische Entwicklungen genau"
+        },
+        {
+          "title": "Kundenorientierung",
+          "description": "Kundenzufriedenheit ist unsere Priorität"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Informieren Sie sich über unsere Dienstleistungen",
+      "description": "Kontaktieren Sie uns für maßgeschneiderte Aufzugslösungen",
+      "button": "Kontakt aufnehmen"
+    }
   }
 } 

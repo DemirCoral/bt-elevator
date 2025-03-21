@@ -1,12 +1,15 @@
-import './globals.css';
-import { NextIntlClientProvider } from 'next-intl';
+import '../globals.css';
+import { AbstractIntlMessages } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n/settings';
 import { Metadata } from 'next';
 import { getMessages } from '@/i18n/getMessages';
 import { setRequestLocale } from 'next-intl/server';
 import { poppins, tajawal } from '@/utils/fonts';
+import { Suspense } from 'react';
+import { NextIntlClientProvider } from 'next-intl';
 
+// Move metadata types outside of component
 type LocaleMetadata = {
   title: string;
   description: string;
@@ -18,7 +21,7 @@ type MetadataByLocale = {
 };
 
 // Base metadata configuration
-export const metadata: Metadata = {
+const baseMetadata = {
   title: {
     template: '%s | BT Elevator',
     default: 'BT Elevator - Modern Asansör Çözümleri',
@@ -33,7 +36,7 @@ export const metadata: Metadata = {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
-};
+} as const;
 
 // Generate static params for all locales
 export function generateStaticParams() {
@@ -46,11 +49,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  // Await the params object itself
-  const resolvedParams = await params;
-  const { locale } = resolvedParams;
+  const { locale } = await params;
   
-  // Validate locale before using it
   if (!locales.includes(locale as any)) {
     notFound();
   }
@@ -89,37 +89,34 @@ export async function generateMetadata({
   const localeMetadata = metadataByLocale[locale as keyof MetadataByLocale] || metadataByLocale.en;
   
   return {
-    ...metadata,
+    ...baseMetadata,
     ...localeMetadata,
-    title: messages?.Home?.title || localeMetadata.title || metadata.title,
-    description: messages?.Home?.description || localeMetadata.description || metadata.description,
+    title: messages?.Home?.title || localeMetadata.title || baseMetadata.title.default,
+    description: messages?.Home?.description || localeMetadata.description || baseMetadata.description,
   };
 }
 
+import LoadingSpinner from '@/components/LoadingSpinner';
+
 export default async function RootLayout({
   children,
-  params,
+  params
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  // Await the params object itself
-  const resolvedParams = await params;
-  const { locale } = resolvedParams;
+  const { locale } = await params;
 
-  // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) {
     notFound();
   }
 
-  // Enable static rendering
   setRequestLocale(locale);
-
-  // Get messages for the current locale
   const messages = await getMessages(locale);
-
-  // Check if the current locale is RTL
   const isRtl = locale === 'ar';
+
+  // Ensure messages is an object to prevent hydration issues
+  const safeMessages: AbstractIntlMessages = messages || {};
 
   return (
     <html 
@@ -144,17 +141,14 @@ export default async function RootLayout({
         className={`${isRtl ? 'font-tajawal' : 'font-poppins'}`}
         suppressHydrationWarning
       >
-        <NextIntlClientProvider
-          locale={locale}
-          messages={messages}
-          timeZone="Europe/Istanbul"
-          now={new Date()}
-        >
-          <main className="page-transition">
-            {children}
-          </main>
+        <NextIntlClientProvider locale={locale} messages={safeMessages}>
+          <Suspense fallback={<LoadingSpinner />}>
+            <main className="page-transition">
+              {children}
+            </main>
+          </Suspense>
         </NextIntlClientProvider>
       </body>
     </html>
   );
-} 
+}

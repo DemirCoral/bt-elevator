@@ -1,0 +1,47 @@
+{
+  "title": "İletişim",
+  "description": "Ekibimizle iletişime geçin",
+  "hero": {
+    "title": "BT Asansör ile İletişime Geçin",
+    "description": "Tüm asansör ihtiyaçlarınız için buradayız"
+  },
+  "form": {
+    "title": "Bize Mesaj Gönderin",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "selectSubject": "Bir konu seçin",
+    "subjects": {
+      "general": "Genel Bilgi",
+      "sales": "Satış",
+      "support": "Teknik Destek",
+      "other": "Diğer"
+    },
+    "submit": "Mesaj Gönder"
+  },
+  "contact": {
+    "title": "İletişim Bilgileri",
+    "phone": {
+      "title": "Telefon",
+      "value": "+90 (555) 123 45 67"
+    },
+    "email": {
+      "title": "E-posta",
+      "value": "info@btasansor.com"
+    },
+    "address": {
+      "title": "Adres",
+      "value": "Asansör Caddesi No:123, Bina Şehri, 34000"
+    },
+    "hours": {
+      "title": "Çalışma Saatleri",
+      "value": "Pazartesi - Cuma: 09:00 - 18:00"
+    }
+  },
+  "map": {
+    "title": "Bizi Bulun",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1234.5678!2d-123.4567!3d12.3456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDIwJzQ0LjIiTiAxMjPCsDI3JzI0LjEiVw!5e0!3m2!1str!2str!4v1234567890"
+  }
+} 

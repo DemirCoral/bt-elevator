@@ -1,0 +1,8 @@
+{
+  "floorPanel": "Floor Panel",
+  "elevatorControls": "Elevator Controls",
+  "floor": "Floor {number}",
+  "call": "Call",
+  "called": "Called",
+  "currentFloor": "Current Floor: {number}"
+} 

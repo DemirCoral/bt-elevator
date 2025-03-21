@@ -1,7 +1,7 @@
 {
   "Home": {
-    "title": "BT Asansör",
-    "description": "Yüksek kaliteli asansör çözümleri",
+    "title": "BT Elevator - Modern Asansör Çözümleri",
+    "description": "Yüksek kaliteli, güvenilir asansör sistemleri ve bakım hizmetleri sunuyoruz.",
     "hero": {
       "title": "Modern Asansör Çözümleri",
       "description": "Yenilikçi teknoloji ve üstün kalite ile asansör sistemleri tasarlıyor ve üretiyoruz.",
@@ -58,5 +58,130 @@
     "about": "Hakkımızda",
     "contact": "İletişim",
     "corporate": "Kurumsal"
+  },
+  "Services": {
+    "hero": {
+      "title": "Profesyonel Asansör Hizmetleri",
+      "description": "Uzman ekibimizle kaliteli ve güvenilir asansör çözümleri sunuyoruz"
+    },
+    "services": {
+      "installation": {
+        "title": "Kurulum",
+        "description": "Modern ve güvenli asansör sistemlerinin profesyonel kurulumu",
+        "features": [
+          "Profesyonel kurulum ekibi",
+          "Güvenlik standartlarına uygun montaj",
+          "Detaylı test ve kontrol süreci"
+        ]
+      },
+      "maintenance": {
+        "title": "Bakım",
+        "description": "Düzenli bakım hizmetleri ile asansörlerinizin ömrünü uzatın",
+        "features": [
+          "Periyodik bakım hizmeti",
+          "7/24 teknik destek",
+          "Önleyici bakım programı"
+        ]
+      },
+      "repair": {
+        "title": "Onarım",
+        "description": "Hızlı ve etkili onarım hizmetleri ile kesintisiz çalışma",
+        "features": [
+          "Hızlı müdahale",
+          "Uzman teknik ekip",
+          "Orijinal yedek parça kullanımı"
+        ]
+      }
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "steps": [
+        {
+          "title": "İnceleme",
+          "description": "Detaylı teknik inceleme ve analiz"
+        },
+        {
+          "title": "Planlama",
+          "description": "Özel çözüm ve uygulama planı"
+        },
+        {
+          "title": "Uygulama",
+          "description": "Profesyonel ekip ile uygulama"
+        },
+        {
+          "title": "Kontrol",
+          "description": "Kalite kontrol ve test süreci"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Hizmetlerimiz Hakkında Bilgi Alın",
+      "description": "Size özel asansör çözümleri için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
+  },
+  "Corporate": {
+    "hero": {
+      "title": "Kurumsal",
+      "description": "Güvenilir ve sürdürülebilir asansör çözümleri"
+    },
+    "sections": {
+      "company": {
+        "title": "Şirketimiz",
+        "description": "BT Elevator olarak 20 yılı aşkın tecrübemizle asansör sektöründe öncüyüz",
+        "link": "Hakkımızda"
+      },
+      "policies": {
+        "title": "Politikalarımız",
+        "description": "Şirket politikalarımız ve iş prensiplerimiz",
+        "link": "Politikalar"
+      },
+      "careers": {
+        "title": "Kariyer",
+        "description": "Dinamik ve yenilikçi bir ortamda kariyer fırsatları",
+        "link": "Kariyer"
+      },
+      "investors": {
+        "title": "Yatırımcı İlişkileri",
+        "description": "Yatırımcılarımız için finansal bilgiler ve raporlar",
+        "link": "Yatırımcılar"
+      },
+      "sustainability": {
+        "title": "Sürdürülebilirlik",
+        "description": "Çevre dostu ve sürdürülebilir iş modellerimiz",
+        "link": "Sürdürülebilirlik"
+      },
+      "compliance": {
+        "title": "Uyum",
+        "description": "Yasal ve etik standartlara uygunluk",
+        "link": "Uyum"
+      }
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "items": [
+        {
+          "title": "Güvenlik",
+          "description": "En yüksek güvenlik standartlarını uyguluyoruz"
+        },
+        {
+          "title": "Kalite",
+          "description": "Sürekli kalite iyileştirmesi ve mükemmellik"
+        },
+        {
+          "title": "Yenilikçilik",
+          "description": "Teknolojik gelişmeleri yakından takip ediyoruz"
+        },
+        {
+          "title": "Müşteri Odaklılık",
+          "description": "Müşteri memnuniyeti önceliğimizdir"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Kurumsal çözümlerimiz hakkında detaylı bilgi almak için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
   }
 } 

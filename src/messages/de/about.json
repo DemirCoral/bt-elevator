@@ -1,0 +1,61 @@
+{
+  "title": "Über BT Aufzüge",
+  "description": "Ihr vertrauenswürdiger Partner für Aufzugslösungen",
+  "hero": {
+    "title": "Unsere Geschichte",
+    "description": "Seit 1990 führen wir die Aufzugsbranche mit Innovation und Exzellenz an"
+  },
+  "history": {
+    "title": "Unsere Geschichte",
+    "description": "Von bescheidenen Anfängen zur Branchenführung",
+    "content": "Gegründet im Jahr 1990, hat sich BT Aufzüge von einem kleinen Familienunternehmen zu einem der führenden Aufzugshersteller und Serviceanbieter in der Region entwickelt. Unsere Reise ist geprägt von kontinuierlicher Innovation, unerschütterlichem Engagement für Qualität und Hingabe für Kundenzufriedenheit."
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "description": "Neue Standards in der Aufzugstechnologie setzen",
+    "content": "Wir streben danach, innovative, sichere und effiziente Aufzugslösungen anzubieten, die die Lebensqualität unserer Kunden verbessern. Unsere Mission ist es, der bevorzugte Partner für vertikale Transportlösungen zu sein, bekannt für unsere Zuverlässigkeit, Expertise und kundenorientierten Ansatz."
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "items": {
+      "safety": {
+        "title": "Sicherheit zuerst",
+        "description": "Wir priorisieren Sicherheit in allen Aspekten unserer Arbeit"
+      },
+      "quality": {
+        "title": "Qualitätsexzellenz",
+        "description": "Wir halten die höchsten Standards in unseren Produkten und Dienstleistungen ein"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir investieren kontinuierlich in Forschung und Entwicklung"
+      },
+      "customer": {
+        "title": "Kundenorientierung",
+        "description": "Wir stellen unsere Kunden in den Mittelpunkt all unseres Handelns"
+      }
+    }
+  },
+  "team": {
+    "title": "Unser Team",
+    "description": "Lernen Sie die Experten hinter unserem Erfolg kennen",
+    "content": "Unser Team besteht aus erfahrenen Fachleuten, die leidenschaftlich daran arbeiten, die besten Aufzugslösungen zu liefern. Von Ingenieuren bis hin zu Technikern spielt jedes Mitglied eine entscheidende Rolle in unserem Erfolg."
+  },
+  "stats": {
+    "title": "Unser Einfluss",
+    "items": {
+      "projects": {
+        "label": "Abgeschlossene Projekte",
+        "value": "1000+"
+      },
+      "clients": {
+        "label": "Zufriedene Kunden",
+        "value": "500+"
+      },
+      "experience": {
+        "label": "Jahre Erfahrung",
+        "value": "30+"
+      }
+    }
+  }
+} 

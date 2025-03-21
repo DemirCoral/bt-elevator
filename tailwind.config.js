@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['var(--font-poppins)'],
-        tajawal: ['var(--font-tajawal)'],
+        sans: ['var(--font-poppins)'],
+        arabic: ['var(--font-tajawal)'],
       },
       colors: {
         primary: 'var(--primary)',

@@ -1,0 +1,66 @@
+{
+  "title": "Our Services",
+  "description": "Comprehensive elevator solutions for your needs",
+  "hero": {
+    "title": "Professional Elevator Services",
+    "description": "From installation to maintenance, we provide complete elevator solutions"
+  },
+  "services": {
+    "installation": {
+      "title": "Installation Services",
+      "description": "Expert installation of new elevator systems",
+      "features": [
+        "Custom design and planning",
+        "Professional installation team",
+        "Safety compliance",
+        "Quality assurance"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance Services",
+      "description": "Regular maintenance to ensure optimal performance",
+      "features": [
+        "Preventive maintenance",
+        "Performance optimization",
+        "Safety inspections",
+        "24/7 emergency support"
+      ]
+    },
+    "repair": {
+      "title": "Repair Services",
+      "description": "Quick and reliable repair solutions",
+      "features": [
+        "Emergency repairs",
+        "Diagnostic services",
+        "Parts replacement",
+        "Technical support"
+      ]
+    }
+  },
+  "process": {
+    "title": "Our Service Process",
+    "steps": [
+      {
+        "title": "Initial Consultation",
+        "description": "We assess your needs and provide detailed recommendations"
+      },
+      {
+        "title": "Service Planning",
+        "description": "We develop a customized service plan for your elevator"
+      },
+      {
+        "title": "Implementation",
+        "description": "Our expert team executes the service plan efficiently"
+      },
+      {
+        "title": "Follow-up",
+        "description": "We ensure your complete satisfaction with our services"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Need Elevator Services?",
+    "description": "Contact us for professional elevator solutions",
+    "button": "Get in Touch"
+  }
+} 

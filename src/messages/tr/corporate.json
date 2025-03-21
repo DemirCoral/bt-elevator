@@ -1,0 +1,66 @@
+{
+  "title": "Kurumsal",
+  "description": "BT Asansör hakkında daha fazla bilgi edinin",
+  "hero": {
+    "title": "Kurumsal Bilgi",
+    "description": "Şirketimizin vizyonunu, değerlerini ve mükemmelliğe olan bağlılığını keşfedin"
+  },
+  "sections": {
+    "company": {
+      "title": "Hakkımızda",
+      "description": "Geçmişimizi, misyonumuzu ve gelecek vizyonumuzu öğrenin",
+      "link": "Detaylı Bilgi"
+    },
+    "policies": {
+      "title": "Politikalar",
+      "description": "Kalite, güvenlik ve çevresel sorumluluğa olan bağlılığımız",
+      "link": "Politikaları Görüntüle"
+    },
+    "careers": {
+      "title": "Kariyer",
+      "description": "Profesyonel ekibimize katılın ve bizimle birlikte büyüyün",
+      "link": "Fırsatları Görüntüle"
+    },
+    "investors": {
+      "title": "Yatırımcılar",
+      "description": "Mevcut ve potansiyel yatırımcılar için bilgiler",
+      "link": "Yatırımcı İlişkileri"
+    },
+    "sustainability": {
+      "title": "Sürdürülebilirlik",
+      "description": "Çevresel ve sosyal sorumluluğa olan bağlılığımız",
+      "link": "Sürdürülebilirlik Raporu"
+    },
+    "compliance": {
+      "title": "Uyumluluk",
+      "description": "Etik iş uygulamaları ve düzenleyici uyumluluğa olan bağlılığımız",
+      "link": "Uyumluluk Bilgileri"
+    }
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "items": [
+      {
+        "title": "Öncelik Güvenlik",
+        "description": "Yaptığımız her şeyde güvenliği ön planda tutuyoruz"
+      },
+      {
+        "title": "Kalite",
+        "description": "En yüksek kalite standartlarını koruyoruz"
+      },
+      {
+        "title": "Yenilikçilik",
+        "description": "Çözümlerimizi geliştirmek için sürekli yenilik yapıyoruz"
+      },
+      {
+        "title": "Müşteri Odaklılık",
+        "description": "Müşterilerimizi işimizin merkezine koyuyoruz"
+      }
+    ]
+  },
+  "cta": {
+    "title": "İletişime Geçin",
+    "description": "Kurumsal girişimlerimiz hakkında daha fazla bilgi için bizimle iletişime geçin",
+    "button": "İletişime Geçin"
+  }
+} 

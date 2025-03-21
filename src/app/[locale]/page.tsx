@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import Header from '@/components/Header';
 import ProductCard from '@/components/ProductCard';
 import ServiceCard from '@/components/ServiceCard';
 import { 
@@ -9,11 +8,12 @@ import {
   ClockIcon, 
   ShieldCheckIcon 
 } from '@heroicons/react/24/outline';
+import PageLayout from '@/components/PageLayout';
+import Link from 'next/link';
 
 export default function Home() {
   const t = useTranslations('Home');
   const locale = useLocale();
-
   const isRTL = locale === 'ar';
 
   const getPlaceholderText = (text: string) => {
@@ -100,9 +100,7 @@ export default function Home() {
   ];
 
   return (
-    <div className={`flex flex-col ${isRTL ? 'rtl' : 'ltr'}`}>
-      <Header />
-      
+    <PageLayout isRTL={isRTL}>
       {/* Hero Section */}
       <section className="relative h-screen bg-gradient-to-r from-blue-600 to-blue-800">
         <div className="container mx-auto px-4 h-full flex items-center">
@@ -160,20 +158,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Preview Section */}
-      <section className="py-20 bg-blue-900 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            {t('contact.title')}
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            {t('contact.description')}
-          </p>
-          <button className="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-            {t('contact.cta')}
-          </button>
+      {/* Contact CTA Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-4">
+              {t('contact.title')}
+            </h2>
+            <p className="text-xl mb-8 text-gray-600">
+              {t('contact.description')}
+            </p>
+            <Link
+              href={`/${locale}/contact`}
+              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+            >
+              {t('contact.cta')}
+            </Link>
+          </div>
         </div>
       </section>
-    </div>
+    </PageLayout>
   );
 } 

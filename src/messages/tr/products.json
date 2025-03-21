@@ -1,0 +1,58 @@
+{
+  "default": {
+    "title": "Ürünlerimiz",
+    "description": "Her ihtiyaca uygun yenilikçi asansör çözümleri",
+    "hero": {
+      "title": "Asansör Çözümleri",
+      "description": "Modern, verimli ve güvenilir asansör sistemlerimizi keşfedin"
+    },
+    "products": {
+      "passenger": {
+        "title": "Yolcu Asansörleri",
+        "description": "Konforlu ve verimli yolcu taşıma çözümleri",
+        "features": [
+          "Yumuşak ve sessiz çalışma",
+          "Gelişmiş güvenlik özellikleri",
+          "Enerji verimli tasarım",
+          "Özelleştirilebilir iç mekan"
+        ]
+      },
+      "freight": {
+        "title": "Yük Asansörleri",
+        "description": "Ticari ve endüstriyel uygulamalar için dayanıklı çözümler",
+        "features": [
+          "Yüksek yük taşıma kapasitesi",
+          "Dayanıklı yapı",
+          "Geniş kapı açıklıkları",
+          "Endüstriyel malzemeler"
+        ]
+      },
+      "residential": {
+        "title": "Konut Asansörleri",
+        "description": "Zarif ve kompakt ev asansörü çözümleri",
+        "features": [
+          "Kompakt tasarım",
+          "Sessiz çalışma",
+          "Kolay bakım",
+          "Modern estetik"
+        ]
+      },
+      "commercial": {
+        "title": "Ticari Asansörler",
+        "description": "Ticari binalar için profesyonel çözümler",
+        "features": [
+          "Yüksek trafik kapasitesi",
+          "Akıllı kontrol sistemleri",
+          "Enerji verimliliği",
+          "Premium kaplamalar"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Asansörünüzü Yenilemeye Hazır mısınız?",
+      "description": "İhtiyaçlarınızı ve gereksinimlerinizi konuşmak için bizimle iletişime geçin",
+      "button": "İletişime Geçin",
+      "learnMore": "Detaylı Bilgi"
+    }
+  }
+} 

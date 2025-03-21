@@ -1,0 +1,66 @@
+{
+  "title": "Corporate",
+  "description": "Learn more about BT Elevator",
+  "hero": {
+    "title": "Corporate Information",
+    "description": "Discover our company's vision, values, and commitment to excellence"
+  },
+  "sections": {
+    "company": {
+      "title": "About Us",
+      "description": "Learn about our history, mission, and vision for the future",
+      "link": "Learn More"
+    },
+    "policies": {
+      "title": "Policies",
+      "description": "Our commitment to quality, safety, and environmental responsibility",
+      "link": "View Policies"
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Join our team of professionals and grow with us",
+      "link": "View Opportunities"
+    },
+    "investors": {
+      "title": "Investors",
+      "description": "Information for current and potential investors",
+      "link": "Investor Relations"
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "Our commitment to environmental and social responsibility",
+      "link": "Sustainability Report"
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "Our commitment to ethical business practices and regulatory compliance",
+      "link": "Compliance Information"
+    }
+  },
+  "values": {
+    "title": "Our Values",
+    "items": [
+      {
+        "title": "Safety First",
+        "description": "We prioritize safety in everything we do"
+      },
+      {
+        "title": "Quality",
+        "description": "We maintain the highest standards of quality"
+      },
+      {
+        "title": "Innovation",
+        "description": "We continuously innovate to improve our solutions"
+      },
+      {
+        "title": "Customer Focus",
+        "description": "We put our customers at the heart of our business"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get in Touch",
+    "description": "Contact us for more information about our corporate initiatives",
+    "button": "Contact Us"
+  }
+} 

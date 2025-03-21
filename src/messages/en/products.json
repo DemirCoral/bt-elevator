@@ -1,0 +1,56 @@
+{
+  "title": "Our Products",
+  "description": "Innovative elevator solutions for every need",
+  "hero": {
+    "title": "Elevator Solutions",
+    "description": "Discover our range of modern, efficient, and reliable elevator systems"
+  },
+  "products": {
+    "passenger": {
+      "title": "Passenger Elevators",
+      "description": "Comfortable and efficient passenger transportation solutions",
+      "features": [
+        "Smooth and quiet operation",
+        "Advanced safety features",
+        "Energy-efficient design",
+        "Customizable interiors"
+      ]
+    },
+    "freight": {
+      "title": "Freight Elevators",
+      "description": "Heavy-duty solutions for commercial and industrial applications",
+      "features": [
+        "High load capacity",
+        "Durable construction",
+        "Wide door openings",
+        "Industrial-grade materials"
+      ]
+    },
+    "residential": {
+      "title": "Residential Elevators",
+      "description": "Elegant and space-efficient home elevator solutions",
+      "features": [
+        "Compact design",
+        "Quiet operation",
+        "Easy maintenance",
+        "Modern aesthetics"
+      ]
+    },
+    "commercial": {
+      "title": "Commercial Elevators",
+      "description": "Professional solutions for commercial buildings",
+      "features": [
+        "High traffic capacity",
+        "Smart control systems",
+        "Energy efficiency",
+        "Premium finishes"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to Upgrade Your Elevator?",
+    "description": "Contact us to discuss your specific needs and requirements",
+    "button": "Get in Touch",
+    "learnMore": "Learn More"
+  }
+} 

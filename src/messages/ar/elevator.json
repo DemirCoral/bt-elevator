@@ -1,0 +1,8 @@
+{
+  "floorPanel": "لوحة الطوابق",
+  "elevatorControls": "تحكم المصعد",
+  "floor": "الطابق {number}",
+  "call": "استدعاء",
+  "called": "تم الاستدعاء",
+  "currentFloor": "الطابق الحالي: {number}"
+} 

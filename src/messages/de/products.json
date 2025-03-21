@@ -1,0 +1,56 @@
+{
+  "title": "Unsere Produkte",
+  "description": "Innovative Aufzugslösungen für jeden Bedarf",
+  "hero": {
+    "title": "Aufzugslösungen",
+    "description": "Entdecken Sie unsere Reihe moderner, effizienter und zuverlässiger Aufzugssysteme"
+  },
+  "products": {
+    "passenger": {
+      "title": "Personenaufzüge",
+      "description": "Komfortable und effiziente Personenbeförderungslösungen",
+      "features": [
+        "Sanfter und leiser Betrieb",
+        "Fortgeschrittene Sicherheitsfunktionen",
+        "Energieeffizientes Design",
+        "Anpassbare Innenausstattung"
+      ]
+    },
+    "freight": {
+      "title": "Lastenaufzüge",
+      "description": "Robuste Lösungen für gewerbliche und industrielle Anwendungen",
+      "features": [
+        "Hohe Tragfähigkeit",
+        "Langlebige Konstruktion",
+        "Breite Türöffnungen",
+        "Industrielle Materialien"
+      ]
+    },
+    "residential": {
+      "title": "Wohnungsaufzüge",
+      "description": "Elegante und platzsparende Hausaufzugslösungen",
+      "features": [
+        "Kompaktes Design",
+        "Leiser Betrieb",
+        "Einfache Wartung",
+        "Moderne Ästhetik"
+      ]
+    },
+    "commercial": {
+      "title": "Geschäftsaufzüge",
+      "description": "Professionelle Lösungen für Geschäftsgebäude",
+      "features": [
+        "Hohe Verkehrskapazität",
+        "Intelligente Steuerungssysteme",
+        "Energieeffizienz",
+        "Premium-Finish"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Bereit für die Modernisierung Ihres Aufzugs?",
+    "description": "Kontaktieren Sie uns, um Ihre spezifischen Bedürfnisse und Anforderungen zu besprechen",
+    "button": "Kontakt aufnehmen",
+    "learnMore": "Mehr erfahren"
+  }
+} 

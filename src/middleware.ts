@@ -9,10 +9,13 @@ export default createMiddleware({
   defaultLocale,
 
   // Always use path-based routing
-  localePrefix: 'always'
+  localePrefix: 'always',
+
+  // Add locale detection
+  localeDetection: true
 });
 
 export const config = {
-  // Match only internationalized pathnames
-  matcher: ['/', '/(tr|en|de|ru|ar)/:path*']
+  // Match all routes
+  matcher: ['/', '/((?!api|_next|_vercel|.*\\..*).*)']
 }; 

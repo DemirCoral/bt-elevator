@@ -1,35 +1,35 @@
 {
   "Home": {
-    "title": "BT Elevator",
-    "description": "High quality elevator solutions",
+    "title": "BT Elevator - Modern Elevator Solutions",
+    "description": "We provide high-quality, reliable elevator systems and maintenance services.",
     "hero": {
       "title": "Modern Elevator Solutions",
       "description": "We design and manufacture elevator systems with innovative technology and superior quality.",
-      "cta": "Discover Our Products"
+      "cta": "Explore Our Products"
     },
     "products": {
       "title": "Our Products",
       "description": "Elevator systems manufactured with the latest technology",
-      "viewMore": "View Details",
+      "viewMore": "Learn More",
       "items": {
         "passenger": {
           "title": "Passenger Elevators",
-          "description": "Increase the value of your building with modern and comfortable passenger elevators."
+          "description": "Increase your building's value with modern and comfortable passenger elevators."
         },
         "cargo": {
           "title": "Cargo Elevators",
-          "description": "Easily transport heavy loads with strong and reliable cargo elevators."
+          "description": "Transport heavy loads easily with strong and reliable cargo elevators."
         },
         "panoramic": {
           "title": "Panoramic Elevators",
-          "description": "Add value to your space with stylish and modern designed panoramic elevators."
+          "description": "Add value to your space with stylish and modern panoramic elevators."
         }
       }
     },
     "services": {
       "title": "Our Services",
       "description": "Professional elevator maintenance and service solutions",
-      "viewMore": "View Details",
+      "viewMore": "Learn More",
       "items": {
         "maintenance": {
           "title": "Maintenance & Repair",
@@ -37,11 +37,11 @@
         },
         "support": {
           "title": "24/7 Service",
-          "description": "Technical support and service available 24/7 for emergencies."
+          "description": "24/7 technical support and service for emergencies."
         },
         "safety": {
           "title": "Safety Inspections",
-          "description": "Ensure the safety of your elevators with periodic safety inspections."
+          "description": "Ensure your elevators' safety with periodic safety inspections."
         }
       }
     },
@@ -58,5 +58,184 @@
     "about": "About",
     "contact": "Contact",
     "corporate": "Corporate"
+  },
+  "Products": {
+    "hero": {
+      "title": "Our Elevator Solutions",
+      "description": "Discover our modern and efficient elevator systems"
+    },
+    "products": {
+      "passenger": {
+        "title": "Passenger Elevators",
+        "description": "Comfortable and efficient passenger transportation solutions",
+        "features": [
+          "Smooth and quiet operation",
+          "Advanced safety features",
+          "Energy-efficient design",
+          "Customizable interior"
+        ]
+      },
+      "freight": {
+        "title": "Freight Elevators",
+        "description": "Durable solutions for commercial and industrial applications",
+        "features": [
+          "High load capacity",
+          "Robust construction",
+          "Wide door openings",
+          "Industrial materials"
+        ]
+      },
+      "residential": {
+        "title": "Residential Elevators",
+        "description": "Elegant and compact home elevator solutions",
+        "features": [
+          "Compact design",
+          "Quiet operation",
+          "Easy maintenance",
+          "Modern aesthetics"
+        ]
+      },
+      "commercial": {
+        "title": "Commercial Elevators",
+        "description": "Professional solutions for commercial buildings",
+        "features": [
+          "High traffic capacity",
+          "Smart control systems",
+          "Energy efficiency",
+          "Premium finishes"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready to Upgrade Your Elevator?",
+      "description": "Contact us to discuss your specific needs",
+      "button": "Get in Touch",
+      "learnMore": "Learn More"
+    }
+  },
+  "Services": {
+    "hero": {
+      "title": "Professional Elevator Services",
+      "description": "We provide quality and reliable elevator solutions with our expert team"
+    },
+    "services": {
+      "installation": {
+        "title": "Installation",
+        "description": "Professional installation of modern and safe elevator systems",
+        "features": [
+          "Professional installation team",
+          "Safety standard compliant installation",
+          "Detailed testing and control process"
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Extend the life of your elevators with regular maintenance services",
+        "features": [
+          "Periodic maintenance service",
+          "24/7 technical support",
+          "Preventive maintenance program"
+        ]
+      },
+      "repair": {
+        "title": "Repair",
+        "description": "Fast and effective repair services for uninterrupted operation",
+        "features": [
+          "Quick response",
+          "Expert technical team",
+          "Original spare parts usage"
+        ]
+      }
+    },
+    "process": {
+      "title": "Our Work Process",
+      "steps": [
+        {
+          "title": "Inspection",
+          "description": "Detailed technical inspection and analysis"
+        },
+        {
+          "title": "Planning",
+          "description": "Custom solution and implementation plan"
+        },
+        {
+          "title": "Implementation",
+          "description": "Professional team implementation"
+        },
+        {
+          "title": "Control",
+          "description": "Quality control and testing process"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Learn About Our Services",
+      "description": "Contact us for customized elevator solutions",
+      "button": "Contact Us"
+    }
+  },
+  "Corporate": {
+    "hero": {
+      "title": "Corporate",
+      "description": "Reliable and sustainable elevator solutions"
+    },
+    "sections": {
+      "company": {
+        "title": "Our Company",
+        "description": "BT Elevator is a leader in the elevator industry with over 20 years of experience",
+        "link": "About Us"
+      },
+      "policies": {
+        "title": "Our Policies",
+        "description": "Company policies and business principles",
+        "link": "Policies"
+      },
+      "careers": {
+        "title": "Careers",
+        "description": "Career opportunities in a dynamic and innovative environment",
+        "link": "Careers"
+      },
+      "investors": {
+        "title": "Investor Relations",
+        "description": "Financial information and reports for our investors",
+        "link": "Investors"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Environmentally friendly and sustainable business models",
+        "link": "Sustainability"
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "Compliance with legal and ethical standards",
+        "link": "Compliance"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Safety",
+          "description": "We implement the highest safety standards"
+        },
+        {
+          "title": "Quality",
+          "description": "Continuous quality improvement and excellence"
+        },
+        {
+          "title": "Innovation",
+          "description": "We closely follow technological developments"
+        },
+        {
+          "title": "Customer Focus",
+          "description": "Customer satisfaction is our priority"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Get Information About Our Services",
+      "description": "Contact us for customized elevator solutions",
+      "button": "Contact Us"
+    }
   }
 } 
