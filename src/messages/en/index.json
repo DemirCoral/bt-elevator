@@ -179,6 +179,14 @@
       "title": "Corporate",
       "description": "Reliable and sustainable elevator solutions"
     },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We aim to improve the quality of life of our customers by providing high-quality elevator systems and services."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "We want to become a leader in the elevator industry and set standards in the sector with our innovative solutions."
+    },
     "sections": {
       "company": {
         "title": "Our Company",

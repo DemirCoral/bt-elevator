@@ -1,0 +1,74 @@
+{
+  "title": "Unternehmen",
+  "description": "Erfahren Sie mehr über BT Aufzüge",
+  "hero": {
+    "title": "Unternehmen",
+    "description": "Unternehmenswerte und Mission von BT Aufzüge"
+  },
+  "mission": {
+    "title": "Unsere Mission", 
+    "description": "Unser Ziel ist es, die Lebensqualität unserer Kunden zu verbessern, indem wir Aufzugssysteme und Dienstleistungen von höchster Qualität anbieten."
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "description": "Wir streben an, eine führende Position in der Aufzugsbranche einzunehmen und mit unseren innovativen Lösungen Standards in der Branche zu setzen."
+  },
+  "sections": {
+    "company": {
+      "title": "Unser Unternehmen",
+      "description": "Erfahren Sie mehr über unser Unternehmen",
+      "link": "Mehr erfahren"
+    },
+    "policies": {
+      "title": "Unsere Richtlinien",
+      "description": "Sehen Sie sich unsere Unternehmensrichtlinien an",
+      "link": "Richtlinien ansehen"
+    },
+    "careers": {
+      "title": "Karriere",
+      "description": "Entdecken Sie unsere Karrieremöglichkeiten",
+      "link": "Karrieremöglichkeiten"
+    },
+    "investors": {
+      "title": "Investorenbeziehungen",
+      "description": "Besuchen Sie unsere Investorenbeziehungsseite",
+      "link": "Investoreninformationen"
+    },
+    "sustainability": {
+      "title": "Nachhaltigkeit",
+      "description": "Erfahren Sie mehr über unsere Nachhaltigkeitsarbeit",
+      "link": "Nachhaltigkeit"
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "Sehen Sie sich unsere Compliance-Richtlinien an",
+      "link": "Compliance-Richtlinien"
+    }
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "items": [
+      {
+        "title": "Sicherheit",
+        "description": "Wir wenden die höchsten Sicherheitsstandards an"
+      },
+      {
+        "title": "Qualität",
+        "description": "Kontinuierliche Qualitätsverbesserung und Exzellenz"
+      },
+      {
+        "title": "Innovation",
+        "description": "Wir verfolgen technologische Entwicklungen aufmerksam"
+      },
+      {
+        "title": "Kundenorientierung",
+        "description": "Kundenzufriedenheit ist unsere Priorität"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Sie können uns für alle Fragen kontaktieren",
+    "button": "Kontakt"
+  }
+} 

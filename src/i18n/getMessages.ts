@@ -68,6 +68,29 @@ export type Messages = {
       learnMore?: string;
     };
   };
+  About?: {
+    title?: string;
+    description?: string;
+  };
+  Contact?: {
+    title?: string;
+    description?: string;
+    cta?: string;
+  };
+  Services?: {
+    title?: string;
+    description?: string;
+    viewMore?: string;
+    items?: {
+      [key: string]: {
+        title?: string;
+        description?: string;
+      };
+    };
+  };
+  Corporate?: {
+    // Add any necessary properties for corporate messages
+  };
   [key: string]: any;
 };
 
@@ -162,6 +185,20 @@ const defaultMessages: Messages = {
       button: 'Get in Touch',
       learnMore: 'Learn More'
     }
+  },
+  About: {
+    title: 'About Us',
+    description: 'Learn more about our company and our commitment to excellence'
+  },
+  Contact: {
+    title: 'Contact Us',
+    description: 'Get in touch with our team',
+    cta: 'Contact Us'
+  },
+  Services: {
+    title: 'Our Services',
+    description: 'Comprehensive elevator services and maintenance',
+    viewMore: 'View More'
   }
 };
 
@@ -180,6 +217,18 @@ export async function getMessages(locale: string): Promise<Messages> {
     
     // Try to load products messages
     const productsMessages = await import(`../messages/${locale}/products.json`).catch(() => ({}));
+
+    // Try to load about messages
+    const aboutMessages = await import(`../messages/${locale}/about.json`).catch(() => ({}));
+
+    // Try to load contact messages
+    const contactMessages = await import(`../messages/${locale}/contact.json`).catch(() => ({}));
+
+    // Try to load services messages
+    const servicesMessages = await import(`../messages/${locale}/services.json`).catch(() => ({}));
+
+    // Try to load corporate messages
+    const corporateMessages = await import(`../messages/${locale}/corporate.json`).catch(() => ({}));
 
     // Deep merge function to handle nested objects
     const deepMerge = (target: any, source: any) => {
@@ -201,6 +250,23 @@ export async function getMessages(locale: string): Promise<Messages> {
       return item && typeof item === 'object' && !Array.isArray(item);
     };
 
+    // Handle products.default namespace - move content to top level
+    const productsData = productsMessages.default?.default
+      ? { ...productsMessages.default?.default }
+      : productsMessages.default || {};
+    
+    // Handle contact namespace
+    const contactData = contactMessages.default || {};
+    
+    // Handle about namespace
+    const aboutData = aboutMessages.default || {};
+
+    // Handle corporate namespace
+    const corporateData = corporateMessages.default || {};
+
+    // Handle services namespace
+    const servicesData = servicesMessages.default || {};
+
     // Ensure default messages are properly structured
     const structuredDefaultMessages = deepMerge(defaultMessages, {});
 
@@ -213,7 +279,19 @@ export async function getMessages(locale: string): Promise<Messages> {
           ...navigationMessages.default || {},
         },
         Products: {
-          ...productsMessages.default || {},
+          ...productsData,
+        },
+        About: {
+          ...aboutData,
+        },
+        Contact: {
+          ...contactData,
+        },
+        Services: {
+          ...servicesData,
+        },
+        Corporate: {
+          ...corporateData
         }
       }
     );
@@ -223,11 +301,15 @@ export async function getMessages(locale: string): Promise<Messages> {
       ...mergedMessages,
       Home: deepMerge(structuredDefaultMessages.Home, mergedMessages.Home),
       Navigation: deepMerge(structuredDefaultMessages.Navigation, mergedMessages.Navigation),
-      Products: deepMerge(structuredDefaultMessages.Products, mergedMessages.Products),
+      Products: deepMerge(structuredDefaultMessages.Products || {}, mergedMessages.Products || {}),
+      About: deepMerge(structuredDefaultMessages.About || {}, mergedMessages.About || {}),
+      Contact: deepMerge(structuredDefaultMessages.Contact || {}, mergedMessages.Contact || {}),
+      Services: deepMerge(structuredDefaultMessages.Services || {}, mergedMessages.Services || {}),
+      Corporate: deepMerge(structuredDefaultMessages.Corporate || {}, mergedMessages.Corporate || {})
     };
 
     // Validate message structure
-    if (!finalMessages.Home || !finalMessages.Navigation || !finalMessages.Products) {
+    if (!finalMessages.Home || !finalMessages.Navigation) {
       console.warn('Invalid message structure, falling back to defaults');
       return defaultMessages;
     }

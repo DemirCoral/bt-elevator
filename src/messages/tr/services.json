@@ -5,6 +5,9 @@
     "title": "Profesyonel Asansör Hizmetleri",
     "description": "Kurulumdan bakıma kadar, eksiksiz asansör çözümleri sunuyoruz"
   },
+  "servicesSection": {
+    "title": "Profesyonel Hizmetlerimiz"
+  },
   "services": {
     "installation": {
       "title": "Kurulum Hizmetleri",

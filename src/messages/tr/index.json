@@ -125,6 +125,14 @@
       "title": "Kurumsal",
       "description": "Güvenilir ve sürdürülebilir asansör çözümleri"
     },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Müşterilerimize en yüksek kalitede asansör sistemleri ve hizmetleri sunarak yaşam kalitelerini artırmayı hedefliyoruz"
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Asansör sektöründe lider konuma gelerek, yenilikçi çözümlerimizle sektörde standartları belirlemek istiyoruz"
+    },
     "sections": {
       "company": {
         "title": "Şirketimiz",

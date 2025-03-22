@@ -1,0 +1,46 @@
+{
+  "title": "Kontakt",
+  "description": "Kontaktieren Sie uns für alle Ihre Aufzugsbedürfnisse",
+  "hero": {
+    "title": "Kontaktieren Sie BT Aufzüge",
+    "description": "Wir sind für alle Ihre Aufzugsbedürfnisse da"
+  },
+  "form": {
+    "title": "Senden Sie uns eine Nachricht",
+    "name": "Vor- und Nachname",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "subject": "Betreff",
+    "selectSubject": "Wählen Sie einen Betreff",
+    "subjects": {
+      "general": "Allgemeine Information",
+      "sales": "Verkauf",
+      "support": "Technischer Support",
+      "other": "Andere"
+    },
+    "message": "Nachricht",
+    "submit": "Nachricht senden"
+  },
+  "contact": {
+    "title": "Kontaktinformationen",
+    "phone": {
+      "title": "Telefon",
+      "value": "+90 (555) 123 45 67"
+    },
+    "email": {
+      "title": "E-Mail",
+      "value": "info@btasansor.com"
+    },
+    "address": {
+      "title": "Adresse",
+      "value": "Aufzugsstraße 123, Gebäudestadt, 34000"
+    },
+    "hours": {
+      "title": "Öffnungszeiten",
+      "value": "Montag - Freitag: 09:00 - 18:00"
+    }
+  },
+  "map": {
+    "title": "Finden Sie uns"
+  }
+} 

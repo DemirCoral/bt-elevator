@@ -5,6 +5,9 @@
     "title": "خدمات المصاعد المهنية",
     "description": "من التركيب إلى الصيانة، نقدم حلول مصاعد متكاملة"
   },
+  "servicesSection": {
+    "title": "خدماتنا المهنية"
+  },
   "services": {
     "installation": {
       "title": "خدمات التركيب",

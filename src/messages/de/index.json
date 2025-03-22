@@ -179,6 +179,14 @@
       "title": "Unternehmen",
       "description": "Zuverlässige und nachhaltige Aufzugslösungen"
     },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir streben danach, unseren Kunden höchste Qualität bei Aufzugsystemen und -dienstleistungen zu bieten, um ihre Lebensqualität zu verbessern."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "description": "Wir wollen eine führende Position in der Aufzugsindustrie einnehmen und mit unseren innovativen Lösungen Standards in der Branche setzen."
+    },
     "sections": {
       "company": {
         "title": "Unser Unternehmen",

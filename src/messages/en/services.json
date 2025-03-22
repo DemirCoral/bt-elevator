@@ -5,6 +5,9 @@
     "title": "Professional Elevator Services",
     "description": "From installation to maintenance, we provide complete elevator solutions"
   },
+  "servicesSection": {
+    "title": "Our Professional Services"
+  },
   "services": {
     "installation": {
       "title": "Installation Services",

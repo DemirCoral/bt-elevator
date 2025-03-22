@@ -8,10 +8,22 @@ export default function AboutPage() {
   const locale = useLocale();
   const isRTL = locale === 'ar';
 
+  // Güvenli çeviri erişimi için yardımcı fonksiyon
+  const safeTranslate = (key: string, defaultText: string): string => {
+    try {
+      // Doğrudan key ile deneyelim
+      return t(key);
+    } catch (e) {
+      // Başarısız olursa varsayılan metni kullan
+      console.log(`Translation key not found: ${key}, using default text: ${defaultText}`);
+      return defaultText;
+    }
+  };
+
   return (
     <PageLayout isRTL={isRTL}>
       {/* Hero Section */}
-      <section className="relative pt-20 py-20 bg-gradient-to-r from-blue-600 to-blue-800">
+      <section className="relative pt-32 pb-20 bg-gradient-to-r from-blue-600 to-blue-800">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -67,7 +79,7 @@ export default function AboutPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               {Object.entries(t.raw('values.items')).map(([key, value]: [string, any]) => (
-                <div key={key} className={`p-6 bg-gray-50 rounded-lg text-${isRTL ? 'right' : 'left'}`}>
+                <div key={key} className={`p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-${isRTL ? 'right' : 'left'}`}>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {value.title}
                   </h3>
@@ -107,7 +119,7 @@ export default function AboutPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {Object.entries(t.raw('stats.items')).map(([key, value]: [string, any]) => (
-                <div key={key} className="text-center">
+                <div key={key} className="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div className="text-4xl font-bold text-blue-600 mb-2">
                     {value.value}
                   </div>

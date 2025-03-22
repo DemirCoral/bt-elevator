@@ -2,38 +2,41 @@
   "title": "Unsere Dienstleistungen",
   "description": "Umfassende Aufzugslösungen für Ihre Bedürfnisse",
   "hero": {
-    "title": "Professionelle Aufzugsdienste",
-    "description": "Von der Installation bis zur Wartung bieten wir komplette Aufzugslösungen"
+    "title": "Unsere Dienstleistungen",
+    "description": "Umfassende Aufzugsdienste für alle Ihre Bedürfnisse"
+  },
+  "servicesSection": {
+    "title": "Unsere Aufzugsdienstleistungen"
   },
   "services": {
     "installation": {
       "title": "Installationsdienste",
-      "description": "Professionelle Installation neuer Aufzugssysteme",
+      "description": "Fachmännische Aufzugsinstallation für neue und bestehende Gebäude",
       "features": [
-        "Individuelle Planung und Gestaltung",
-        "Professionelles Installationsteam",
-        "Sicherheitskonformität",
-        "Qualitätssicherung"
+        "Fachgerechte Installation",
+        "Maßgeschneiderte Lösungen",
+        "Modernisierung bestehender Anlagen",
+        "Projektmanagement"
       ]
     },
     "maintenance": {
       "title": "Wartungsdienste",
-      "description": "Regelmäßige Wartung für optimale Leistung",
+      "description": "Regelmäßige Aufzugswartung zur Gewährleistung von Sicherheit und Zuverlässigkeit",
       "features": [
+        "Regelmäßige Inspektion",
         "Vorbeugende Wartung",
-        "Leistungsoptimierung",
-        "Sicherheitsinspektionen",
-        "24/7 Notfall-Support"
+        "Notfallservice",
+        "Sicherheitsprüfungen"
       ]
     },
     "repair": {
-      "title": "Reparaturservices",
-      "description": "Schnelle und zuverlässige Reparaturlösungen",
+      "title": "Reparaturdienste",
+      "description": "Schnelle und professionelle Aufzugsreparaturdienste",
       "features": [
-        "Notfallreparaturen",
-        "Diagnoseservices",
-        "Teileersatz",
-        "Technischer Support"
+        "Schnelle Reparatur",
+        "Qualitätsersatzteile",
+        "Erfahrene Techniker",
+        "Kostengünstige Lösungen"
       ]
     }
   },
@@ -41,26 +44,26 @@
     "title": "Unser Serviceprozess",
     "steps": [
       {
-        "title": "Erstberatung",
-        "description": "Wir analysieren Ihre Bedürfnisse und geben detaillierte Empfehlungen"
+        "title": "Kontaktieren Sie uns",
+        "description": "Rufen Sie uns an oder füllen Sie das Kontaktformular aus, um Ihren Servicebedarf zu besprechen"
       },
       {
-        "title": "Serviceplanung",
-        "description": "Wir entwickeln einen maßgeschneiderten Serviceplan für Ihren Aufzug"
+        "title": "Kostenlose Beratung",
+        "description": "Unser Team wird Ihre Anforderungen bewerten und eine maßgeschneiderte Lösung vorschlagen"
       },
       {
-        "title": "Umsetzung",
-        "description": "Unser Expertenteam führt den Serviceplan effizient aus"
+        "title": "Servicetermin vereinbaren",
+        "description": "Wir vereinbaren einen für Sie bequemen Termin für unsere Techniker"
       },
       {
-        "title": "Nachbetreuung",
-        "description": "Wir stellen Ihre vollständige Zufriedenheit mit unseren Dienstleistungen sicher"
+        "title": "Servicedurchführung",
+        "description": "Unsere Experten führen den Service gemäß höchsten Standards aus"
       }
     ]
   },
   "cta": {
-    "title": "Benötigen Sie Aufzugsdienste?",
-    "description": "Kontaktieren Sie uns für professionelle Aufzugslösungen",
+    "title": "Bereit zu beginnen?",
+    "description": "Kontaktieren Sie uns noch heute, um Ihre Aufzugswartungsanforderungen zu besprechen",
     "button": "Kontakt aufnehmen"
   }
 } 
